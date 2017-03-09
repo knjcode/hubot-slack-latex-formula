@@ -1,0 +1,19 @@
+{
+  "name": "hubot-slack-latex-formula",
+  "description": "A hubot script that creates latex formula images and upload it to Slack.",
+  "version": "0.0.1",
+  "author": "knjcode <knjcode@gmail.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, latex, formula",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/knjcode/hubot-slack-latex-formula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knjcode/hubot-slack-latex-formula/issues"
+  },
+  "main": "index.coffee",
+  "dependencies": {
+    "@slack/client": "^3.8.1"
+  }
+}
