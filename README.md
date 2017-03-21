@@ -12,7 +12,7 @@ On Ubuntu
 
 ```bash
 $ sudo apt-get update
-$ sudo apt-get install -y gettext texlive-latex-base texlive-extra-utils \
+$ sudo apt-get install -y gettext texlive-latex-base texlive-latex-extra texlive-extra-utils \
     texlive-fonts-extra texlive-science imagemagick
 ```
 

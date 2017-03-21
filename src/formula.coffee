@@ -15,6 +15,7 @@ module.exports = (robot) ->
 
   robot.respond /formula((.*\s*)+)/i, (msg) ->
     formula = msg.match[1].split('\n').join(' ').trim()
+    formula = formula.replace("'", "'\\''")
     formula = formula[1...-1] if /^\$.*\$$/.test formula
 
     scriptPath = path.resolve __dirname
